@@ -18,11 +18,11 @@ a. The predictor variables in the model have been chosen based on the p-values t
 
 b. Also the graphical illustration for all the variables taken into consideration in the above figure are as;
 
-<img src="images/customer_ID vs. Score.png">
-<img src="images/Customer_Segment vs. Score.png">
-<img src="images/Score vs Avg.Prod_Purchased.png">
-<img src="images/Store_number vs. Score.png">
-<img src="images/zip vs, score.png">
+<img src="images/customer_IDvs.Score.png">
+<img src="images/Customer_Segmentvs.Score.png">
+<img src="images/Scorevs.Avg.Prod_Purchased.png">
+<img src="images/Store_numbervs.Score.png">
+<img src="images/zipvs,score.png">
 
 #### 2. Explain why you believe your linear model is a good model. You must justify your reasoning using the statistical results that your regression model created. For each variable you selected, please justify how each variable is a good fit for your model by using the p-values and R-squared values that your model produced.
 a. “Customer_Segment” and “Avg_Num_Products_Purchased” have the values lower than 0.05 and are contributing the most. Whereas, one other variable “Responded_to_Last_Catalog” is not present in the “p1-mailinglist” and we will not take it into consideration because that will cause error in the score when the model will be applied on to this dataset for prediction. So, two of the predictor variables are as shown below;
