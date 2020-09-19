@@ -1,6 +1,6 @@
 # Predicting-Catalog-Demand-in-Alteryx
 
-<img src="images/workflow.png">
+<img src="images/workflow.PNG">
 
 ## Step 1: Business and Data Understanding 
 #### 1. What decisions needs to be made?
