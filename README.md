@@ -14,20 +14,20 @@ b. Another important data needed was the cost of printing and distribution i.e. 
 #### 1. How and why did you select the predictor variables in your model? You must explain how your continuous predictor variables you’ve chosen have a linear relationship with the target variable. Please refer back to the “Multiple Linear Regression with Excel” lesson to help you explore your data and use scatterplots to search for linear relationships. You must include scatterplots in your answer.
 a. The predictor variables in the model have been chosen based on the p-values that proves their significance and relationship with the target variable, as shown below;
 
-<img src="images/most_coefficients.png">
+<img src="images/most_coefficients.PNG">
 
 b. Also the graphical illustration for all the variables taken into consideration in the above figure are as;
 
-<img src="images/customer_IDvs.Score.png">
+<img src="images/customer_IDvs.Score.PNG">
 <img src="images/Customer_Segmentvs.Score.png">
-<img src="images/Scorevs.Avg.Prod_Purchased.png">
-<img src="images/Store_numbervs.Score.png">
-<img src="images/zipvs,score.png">
+<img src="images/Scorevs.Avg.Prod_Purchased.PNG">
+<img src="images/Store_numbervs.Score.PNG">
+<img src="images/zipvs,score.PNG">
 
 #### 2. Explain why you believe your linear model is a good model. You must justify your reasoning using the statistical results that your regression model created. For each variable you selected, please justify how each variable is a good fit for your model by using the p-values and R-squared values that your model produced.
 a. “Customer_Segment” and “Avg_Num_Products_Purchased” have the values lower than 0.05 and are contributing the most. Whereas, one other variable “Responded_to_Last_Catalog” is not present in the “p1-mailinglist” and we will not take it into consideration because that will cause error in the score when the model will be applied on to this dataset for prediction. So, two of the predictor variables are as shown below;
 
-<img src="images/final_coefficients.png">
+<img src="images/final_coefficients.PNG">
 
 b. R-Squared value is almost 0.84 which is not very high but still more than 80%, whereas, the P-values for the selected predictors are very low which makes the predictive model sufficient.
 
